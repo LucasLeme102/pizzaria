@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Italianno&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Italiana&family=Italianno&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+@keyframes girar {
+    from{
+        transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(360deg);
+
+    }
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.cabecalho1{
+   
+    padding: 90px;
+    display:flex;
+    flex-direction: column;
+    
+    align-items: center;
+    background-color: #752e2b;
+    
+   
+}
+.titulo1{
+    margin: 10px;
+    padding: 50px;
+    font-family: Italianno;
+    font-size: 8rem;
+    border: 4px solid;
+    background-color: #f2eab7;
+    
+}
+.paragrafo1{
+    margin: 5px;
+    padding: 25px;
+    font-family: Italianno;
+    font-size: 5rem;
+    color: #f2eab7;
+}
+.container1{
+    border-bottom: 4px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+.botoes{
+    text-decoration: none;
+    font-family: Italianno;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+.header2{
+    margin:100px;
+    padding: 4rem;
+    background-color: #752e2b;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.titulo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2eab7;
+    font-family: italiana;
+    text-align: center;
+}
+.article1-wrap{
+   
+}
+.arrumando{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.titulo3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f2eab7;
+}
+.paragrafo2{
+    color: #f2eab7;
+    font-family: Italianno;
+    font-size:3rem;
+    text-align: center;
+}
+.pizza{
+    width: 600px;
+    height: auto;
+    animation: girar 40s linear infinite;
+   
+}
+.cozinha{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+}
+.container4{
+    margin: 10px;
+    padding: 4px;
+    background-color: #752e2b;
+   
+}
+.pizzaiolo{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.titulo4{
+    color: #000000;
+    background-color: #f2eab7;
+}
+.paragrafo3{
+    color: #f2eab7;
+    font-family:Italiana;
+    font-size: x-large;
+}
+.article2{
+    margin: 10px;
+    padding: 4px;
+    height: 515px;
+    
+    
+    background-color: #752e2b;
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+.titulo5{
+    background-color: #f2eab7;
+}
+.paragrafo4{
+    color: #f2eab7;
+    font-family: Italiana;
+}
+.troca{
+    overflow: hidden;
+    position: relative;
+    width:400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.troca img{
+    
+    width:400px;
+    height: 400px;
+    position: absolute;
+    opacity: 0;
+    animation: troca 8s infinite;
+}
+.troca img:nth-child(1){
+    animation-delay: 0s;
+}
+.troca img:nth-child(2){
+    animation-delay: 2s;
+}
+.troca img:nth-child(3){
+    animation-delay: 4s;
+}
+.troca img:nth-child(4){
+    animation-delay: 6s;
+}
+@keyframes troca {
+    0% { opacity: 0;}
+    20% { opacity: 1;}
+    40% { opacity: 1;}
+    60% { opacity: 0;}
+    100% { opacity: 0;}
+
+}
+.entrega{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    
+}
+.entrega-block{
+    margin: 10px;
+    padding: 4px;
+    width: auto;
+    height: auto;
+    background-color: #752e2b; 
+    
+    
+   
+}
+.titulo-final{
+    background-color: #f2eab7;
+    text-align: center;
+}
+.paragrafo-final{
+    color: #f2eab7;
+    font-family: Italiana;
+}
+.container-entrega{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+
+}
+.container-entrega img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: translateX(100%);
+    opacity: 0;
+    animation: aparecer 1s ease-out forwards;
+
+}
+
+@keyframes aparecer{
+   0%{
+    tranform: translateX(100%);
+    opacity: 0;
+
+   }
+   100%{
+    transform: translateX(0);
+    opacity: 1;
+   }
+}
+.pizza-embalada{
+    width: 300px;
+    height: 300px;
+
+}
+
+
+
+
+
+.celular{
+    overflow: hidden;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-image: url(imagens/pngegg-10.png);
+    background-size: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.celular img{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    opacity: 0;
+    animation: troca 6s infinite;
+    
+
+}
+.marcas{
+    
+}
+.celular img:nth-child(1){
+    animation-delay: 0s;
+}
+.celular img:nth-child(2){
+    animation-delay: 2s;
+}
+.celular img:nth-child(3){
+    animation-delay: 4s;
+}
+@keyframes animation{
+    0% { opacity: 0;}
+    20% { opacity: 1;}
+    40% { opacity: 1;}
+    60% { opacity: 0;}
+    100% { opacity: 0;}
+}
+.blockfooter{
+    background-color: #171f25;
+    padding: 100px;
+    color: #f2eab7;
+    
+}
+.titulofooter{
+    font-family: Italianno;
+    font-size: 7rem;
+    text-align: center;
+
+}
+.footer-paragrafo{
+    text-align: center;
+    
+}
