@@ -22,7 +22,7 @@ Este projeto é um site front-end para uma pizzaria, desenvolvido com **HTML**, 
 <img src="./assets/Desktop-Header.png" width="600" alt="Desktop Header"/>
 
 #### 🧩 Body
-<img src="./assets/Desktop-Body2.png" width="600" alt="Desktop Body Parte 2"/>
+<img src="./assets/Desktop-body2.png" width="600" alt="Desktop Body Parte 2"/>
 <img src="./assets/Desktop-Body.png" width="600" alt="Desktop Body Parte 1"/>
 
 #### 🧩 Footer
@@ -39,7 +39,7 @@ Este projeto é um site front-end para uma pizzaria, desenvolvido com **HTML**, 
 <img src="./assets/Mobile-body.png" width="300" alt="Mobile Body"/>
 
 #### 📲 Footer
-<img src="./assets/Mobile-Footer.png" width="300" alt="Mobile Footer"/>
+<img src="./assets/Mobile-footer.png" width="300" alt="Mobile Footer"/>
 
 ---
 
