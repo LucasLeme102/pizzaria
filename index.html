@@ -1,101 +1,121 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
-   <meta name="description" content="A melhor pizza que voce pode provar!">
-    <title>Manollo</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <meta name="description" content="A melhor pizza que você pode provar!" />
+  <title>Manollo</title>
 </head>
 <body>
-    <header class="cabecalho1">
-        <h1 class="titulo1">Manollo</h1>
-        <h4 class="paragrafo1">Pizzaria tradicional Italiana</h4>
+  <header class="cabecalho1">
+    <h1 class="titulo1">Manollo</h1>
+    <h4 class="paragrafo1">Pizzaria Tradicional Italiana</h4>
+  </header>
+
+  <nav>
+    <div class="menu-mobile">
+      <button id="menu-toggle">&#9776;</button>
+      <div class="menu-links" id="menu-links">
+        <a href="" class="botoes">Início</a>
+        <a href="" class="botoes">Sabores</a>
+        <a href="" class="botoes">Endereços</a>
+        <a href="" class="botoes">Meus Pedidos</a>
+      </div>
+    </div>
+
+    <div class="container1">
+      <a href="" class="botoes">Início</a>
+      <a href="" class="botoes">Sabores</a>
+      <a href="" class="botoes">Endereços</a>
+      <a href="" class="botoes">Meus Pedidos</a>
+    </div>
+  </nav>
+
+  <main>
+    <header class="header2">
+      <article class="article1-wrap">
+        <span class="titulo2"><h2>Um gostinho da Itália</h2></span>
+        <div>
+          <h4 class="titulo3">Mais de 20 anos de tradição!</h4>
+          <p class="paragrafo2">
+            A verdadeira tradição italiana em cada fatia! 🇮🇹<br>
+            Autenticidade e sabor direto da Itália para sua mesa.<br>
+            Massa leve, ingredientes frescos, sabor incomparável!
+          </p>
+        </div>
+        <div class="arrumando">
+          <img src="imagens/pizza.png" alt="Pizza" class="pizza" />
+        </div>
+      </article>
     </header>
-        <nav >
-            <div class="container1">
-                <a href="" class="botoes">LOGO</a>
-                <a href="" class="botoes">Sabores</a>
-                <a href="" class="botoes">Endereços</a>
-                <a href="" class="botoes">Meus pedidos</a>  
-            </div>    
-        </nav>
-    <main>
-        <header class="header2">
-            <article class="article1-wrap" >
-                <span class="titulo2"><h2 >Um gostinho da Italia</h2></span>
-                <div >
-                    <h4 class="titulo3">Mais de 20 anos de tradição!</h4>
-                    <p class="paragrafo2">A verdadeira tradição italiana em cada fatia! 🇮🇹
-                        Autenticidade e sabor direto da Itália para a sua mesa.
-                        Massa leve, ingredientes frescos, sabor incomparável!</p>
-                        
-                </div>
-                <div class="arrumando" >
-                    <img src="imagens/pizza.png" alt="pizza" class="pizza">
-                </div>
-                
-            </article>
-        </header>
-        <section class="cozinha">
-            <div class="container3">
-                <div class="container4">
-                    <span><h2 class="titulo4">Sobre Nós</h2></span>
-                    <p class="paragrafo3"> Respeitando a tradição, inovando no  sabor. <br> Passadas de geração em geração, feitas com paixão. <br> O segredo da nossa pizza? Amor, tradição e ingredientes selecionados.</p>
-                    <div class="container-imagem">
-                        <img src="imagens/pngegg-4.png" alt="pizzaiolo" class="pizzaiolo">
-                    </div>
-                </div>  
-                <article class="article2">
-                    <span><h2 class="titulo5">Cardápio</h2></span>
-                    <p class="paragrafo4">Cada pizza, uma obra-prima italiana.<br>Escolha a sua favorita e sinta o sabor da Itália! <br>Feita no forno a lenha, do jeito que deve ser.</p>
-                    <div class="troca">
-                        <img src="imagens/pizzasection1.png" alt="pizza" class="pizza1">
-                        <img src="imagens/pizza2.png" alt="pizza" class="pizza2">
-                        <img src="imagens/pizza21.png" alt="pizza">
-                        <img src="imagens/pizza22.png" alt="">
-                    </div>
-                    
-    
-                </article>
-            </div>
-            
-        </section>
-        <section class="entrega">
 
-            <header class="entrega-block">
-                <span><h2 class="titulo-final">Delivery</h2></span>
-                <p class="paragrafo-final">A melhor pizza italiana sem sair de casa!<br> Tradição e sabor na sua porta. Peça agora! <br>A Itália mais perto de você. Faça seu pedido!
-                </p>
-                <img src="imagens/pngegg-9.png" alt="pizza-embalada" class="pizza-embalada">
+    <section class="cozinha">
+      <div class="container3">
+        <div class="container4">
+          <h2 class="titulo4">Sobre Nós</h2>
+          <p class="paragrafo3">
+            Respeitamos a tradição e inovamos no sabor.<br>
+            Receitas passadas de geração em geração, feitas com paixão.<br>
+            O segredo da nossa pizza? Amor, tradição e ingredientes selecionados.
+          </p>
+          <img src="imagens/pngegg-4.png" alt="Pizzaiolo" class="pizzaiolo" />
+        </div>
 
-            </header>
-            <div class="celular"> 
-                <img src="imagens/logo-ifood-1024.png" alt="ifood" class="marcas">
-                <img src="imagens/uber.png" alt="uber" class="marcas">
-                <img src="imagens/whats.png" alt="whats" class="marcas">
-            </div>
-            
+        <article class="article2">
+          <h2 class="titulo5">Cardápio</h2>
+          <p class="paragrafo4">
+            Cada pizza é uma obra-prima italiana.<br>
+            Escolha a sua favorita e sinta o sabor da Itália!<br>
+            Feitas no forno a lenha, do jeito que deve ser.
+          </p>
+          <div class="troca">
+            <img src="imagens/pizzasection1.png" alt="Pizza 1" />
+            <img src="imagens/pizza2.png" alt="Pizza 2" />
+            <img src="imagens/pizza21.png" alt="Pizza 3" />
+            <img src="imagens/pizza22.png" alt="Pizza 4" />
+          </div>
+        </article>
+      </div>
+    </section>
 
-            <article class="container-entrega">
-               
-                    <img src="imagens/entrega.png" alt="entregador" class="entregador">
-                
+    <section class="entrega">
+      <header class="entrega-block">
+        <h2 class="titulo-final">Delivery</h2>
+        <p class="paragrafo-final">
+          A melhor pizza italiana sem sair de casa!<br>
+          Tradição e sabor na sua porta. Peça agora!<br>
+          A Itália mais perto de você.
+        </p>
+        <img src="imagens/pngegg-9.png" alt="Pizza Embalada" class="pizza-embalada" />
+      </header>
 
-            </article>
+      <div class="celular">
+        <div class="div-celular">
+            <img src="imagens/logo-ifood-1024.png" alt="iFood" />
+            <img src="imagens/uber.png" alt="Uber Eats" />
+            <img src="imagens/whats.png" alt="WhatsApp" />
+        </div>
+       
+      </div>
 
-        </section>
-    </main>
-    <footer>
-        <header class="blockfooter">
-            <span><h2 class="titulofooter">Mais informações</h2></span>
-            <p class="footer-paragrafo">
-                Saboreie a tradição. <br>
-                Pizza feita com ingredientes selecionados, forno a lenha e o sabor autêntico da Itália em cada mordida. <br>
-                
-                © 2025 [Nome da Pizzaria]. Todos os direitos reservados. <br>
-                Entregamos com amor, direto para a sua mesa.</p>
-        </header>
-    </footer>
+      <article class="container-entrega">
+        <img src="imagens/entrega.png" alt="Entregador" class="entregador" />
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <section class="blockfooter">
+      <h2 class="titulofooter">Mais Informações</h2>
+      <p class="footer-paragrafo">
+        Saboreie a tradição.<br>
+        Pizza feita com ingredientes selecionados, forno a lenha e o sabor autêntico da Itália em cada mordida.<br>
+        © 2025 Manollo Pizzaria. Todos os direitos reservados.<br>
+        Entregamos com amor, direto para sua mesa.
+      </p>
+    </section>
+  </footer>
 </body>
 </html>
