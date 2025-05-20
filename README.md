@@ -39,7 +39,7 @@ Este projeto é um site front-end para uma pizzaria, desenvolvido com **HTML**, 
 <img src="./assets/Mobile-body.png" width="300" alt="Mobile Body"/>
 
 #### 📲 Footer
-<img src="./assets/Mobile-footer.png" width="300" alt="Mobile Footer"/>
+<img src="./assets/mobile-footer.png" width="300" alt="Mobile Footer"/>
 
 ---
 
